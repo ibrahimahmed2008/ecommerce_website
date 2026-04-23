@@ -1,0 +1,89 @@
+Hooks:
+use State
+use Effect
+
+Array method:
+
+.map:
+.map() loops over an array and returns a new array after applying a function to each item.
+ 
+
+Syntax: array.map((item, index) => <Component key={item.id} data={item} />)
+
+Key Requirement: React requires a unique key prop for each item rendered in a list to optimize updates.
+
+Use Cases: Displaying API results, navigation menus, product grids, or dynamic tables. 
+ 
+ Fetch function:
+
+ primarily used to retrieve data from external resources or internal APIs
+
+ Async/Await in Server Components: You can call fetch directly inside Server 
+ Components using async/await without needing hooks like useEffect.
+
+ Try Catch function:
+
+ try...catch is a standard JavaScript construct used to handle runtime errors
+  without crashing the entire application.Its usage in Next.js is often specific to asynchronous operations 
+  like API calls, database queries. 
+
+
+  The try block: Encloses "risky" code that might fail (e.g., fetching data from a server or parsing JSON).
+
+  The catch block: Executes only if an error occurs in the try block,
+   providing an error object with details for logging or displaying user-friendly feedback.
+
+
+props
+images 
+props with APIs
+
+
+Clerk.com is a developer platform that handles authentication, user management, and billing for web and mobile apps. 
+Basically, it lets you add sign-up, login, and org management without building it all yourself.
+ 
+ Used for:
+ authentication
+ billing for payments
+ sign in and log in 
+has pre built next.js Components for developers
+
+sanity
+Sanity is a headless Content Management System (CMS) used for building and managing digital content.
+
+
+It separates content from the frontend, meaning you store content in Sanity and display it anywhere (websites, apps, etc.).
+It provides a real-time collaborative editor, so multiple people can edit content at the same time like Google Docs.
+
+Used for:
+It is used to store content like text, images, and product details for websites.
+Developers use it to build blogs, e-commerce sites, and apps where content changes often.
+
+It helps teams edit content without touching code (like updating a product price or blog post).
+
+It is used to power dynamic websites, where content comes from a database instead of being hardcoded.
+
+
+
+
+
+
+
+slugs and dynamic rendering
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+It allows companies to update content instantly without redeploying the whole website.
